@@ -1,0 +1,34 @@
+
+.navContainer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+  .navContainer--name{
+    margin-left: 30px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    color: #362624;
+  }
+  .linksContainer{
+    margin-right: 90px;
+    a{
+      margin-left: 40px;
+      font-family: 'Oswald', sans-serif;
+      text-decoration: none;
+      font-size: 20px;
+      font-weight: 300;
+      padding: 0 5px 1px 5px;
+      color: #362624;
+      border-radius: 10px;
+
+    }
+    a:hover{
+      color: #ff4000;
+      opacity: 50%;
+      
+    }
+  }
+}
+

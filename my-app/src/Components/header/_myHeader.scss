@@ -1,0 +1,48 @@
+.headerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  margin-left: 30px;
+  margin-top: 30px;
+  
+}
+
+.animatedText {
+  font-size: 24px;
+  color: #333; 
+  margin: 0; // 
+
+  .link{
+    text-decoration: none;
+    color:#7451eb ;
+  }
+  .link:hover{
+    opacity: 50%;
+  }
+}
+
+.animatedBorder {
+  height: 30px;
+  width: 5px;
+  border-right: 3px solid #228C22;
+  animation:  blink-caret 1s infinite;
+}
+
+@keyframes blink-caret {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.sentence{
+  margin-top: 20px;
+}
+
