@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 
 function Text3() {
   const [text, setText] = useState('');
-  const initialText = "During my studies, I worked on some projects involving Html, Css, JavaScript, Sass, React and Redux toolkit.";
+  const initialText = "Au cours de mes études, j'ai travaillé sur certains projets impliquant : Html, Css, JavaScript, Sass, React et Redux.";
   const [animateBorder, setAnimateBorder] = useState(false);
 
 

@@ -1,4 +1,5 @@
 import { NavLink } from 'react-router-dom';
+import cv from './cv.pdf'
 
 function Nav(){
 
@@ -11,7 +12,7 @@ function Nav(){
           <NavLink to="/" id='link' className={({isActive}) => isActive ? "active": ""}>Accueil</NavLink>
           <NavLink to="/projets" id='link' className={({isActive}) => isActive ? "active": ""}>Projets</NavLink>
           <NavLink to="/contact" id='link' className={({isActive}) => isActive ? "active": ""}>Contact</NavLink>
-          <NavLink to="/cv" id='link' className={({isActive}) => isActive ? "active": ""}>Cv</NavLink>
+          <a href={cv} id='link' target="_blank" rel="noreferrer">Cv</a>
         </div>
       </nav>
     </div>

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 
 function Text2() {
   const [text, setText] = useState('');
-  const initialText = "I am studying frontend developement with the online teaching school ";
+  const initialText = "J'étudie le développement frontend avec l'école d'enseignement en ligne ";
   const [link, setLink] = useState('');
   const initialLink = "Open-Classroom";
   const [animateBorder, setAnimateBorder] = useState(false);

@@ -2,7 +2,7 @@ import { useState, useEffect } from "react"
 
 function Text6(){
   const [text, setText] = useState('');
-  const initialText = "Thanks for your visite. ";
+  const initialText = "Merci pour votre visite";
   const [animateBorder, setAnimateBorder] = useState(false);
 
 

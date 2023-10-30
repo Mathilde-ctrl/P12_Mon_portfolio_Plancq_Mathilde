@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 
 function Text5(){
   const [text, setText] = useState('');
-  const initialText = "Feel free to contact me if you'd like to discuss potential opportunities or explore my work further.";
+  const initialText = "N'hésitez pas à me contacter si vous souhaitez discuter d'opportunités potentielles ou explorer davantage mon travail.";
   const [animateBorder, setAnimateBorder] = useState(false);
 
 
@@ -20,7 +20,7 @@ function Text5(){
       }
     };
 
-    setTimeout(typeText, 21000); 
+    setTimeout(typeText, 22000); 
   }, []);
 
   

@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 
 function Text1() {
   const [text, setText] = useState('');
-  const initialText = "Welcome to my portfolio !";
+  const initialText = "Bienvenue sur mon portfolio !";
   const [animateBorder, setAnimateBorder] = useState(false);
 
 
@@ -21,7 +21,7 @@ function Text1() {
       }
     };
 
-    setTimeout(typeText, 2000); 
+    setTimeout(typeText, 1000); 
   }, []);
 
   
