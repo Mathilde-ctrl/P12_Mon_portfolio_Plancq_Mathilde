@@ -13,7 +13,7 @@
   }
   .linksContainer{
     margin-right: 90px;
-    a{
+    #link{
       margin-left: 40px;
       font-family: 'Oswald', sans-serif;
       text-decoration: none;
@@ -21,14 +21,16 @@
       font-weight: 300;
       padding: 0 5px 1px 5px;
       color: #362624;
-      border-radius: 10px;
 
     }
-    a:hover{
+    #link:hover{
       color: #ff4000;
-      opacity: 50%;
-      
+      opacity: 50%; 
     }
   }
 }
 
+.active{
+  border-bottom: 2px solid #ff4000;
+  
+}

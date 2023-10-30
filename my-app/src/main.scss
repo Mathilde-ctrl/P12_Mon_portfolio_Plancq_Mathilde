@@ -2,6 +2,8 @@
 @forward '../../my-app/src/Pages/Home/home';
 @forward '../src/Components/nav/nav';
 @forward './Components/intro/intro';
+@forward './Pages/Projects/projets';
+@forward './Components/projet/projet';
 
 html{
   margin: 0;

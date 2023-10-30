@@ -1,4 +1,4 @@
-
+import { NavLink } from 'react-router-dom';
 
 function Nav(){
 
@@ -8,10 +8,10 @@ function Nav(){
         <p className="navContainer--name">Mathilde</p>
 
         <div className="linksContainer">
-          <a href="/" >Accueil</a>
-          <a href="/projets" >Projets</a>
-          <a href="/contact" >Contact</a>
-          <a href="/cv" >Cv</a>
+          <NavLink to="/" id='link' className={({isActive}) => isActive ? "active": ""}>Accueil</NavLink>
+          <NavLink to="/projets" id='link' className={({isActive}) => isActive ? "active": ""}>Projets</NavLink>
+          <NavLink to="/contact" id='link' className={({isActive}) => isActive ? "active": ""}>Contact</NavLink>
+          <NavLink to="/cv" id='link' className={({isActive}) => isActive ? "active": ""}>Cv</NavLink>
         </div>
       </nav>
     </div>

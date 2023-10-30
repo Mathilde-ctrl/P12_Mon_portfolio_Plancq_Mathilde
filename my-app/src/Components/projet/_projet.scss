@@ -1,0 +1,131 @@
+
+.project{
+  margin-left: 30px;
+  margin-right: 30px;
+  font-family: 'Oswald', sans-serif;
+
+  .projectTitle{
+    margin-top: 0;
+    font-weight: 400;
+    border-top: 1px solid #362624;
+  }
+
+  .projectContainer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+
+  .projectInfo{
+    font-weight: 200;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+    .projectList{
+      list-style-type: circle;
+      margin-bottom: 40px;
+      font-size:22px ;
+
+
+      li::marker{
+        color: #ff4000;
+      }
+    }
+
+    .projectMission{
+      margin-top: 15px;
+    }
+
+    .focus{
+      background-color: #ffdb4d; 
+      padding: 2px 5px; 
+      border-radius: 3px;
+      margin: 0;
+      font-size: 20px;
+      word-spacing: 15px;
+    }
+  }
+
+  .projectImageContainer{
+    display: flex;
+    .projectImage{
+      max-width: 400px;
+      max-height: 400px;
+      box-sizing: border-box;
+      object-fit: contain;
+      margin-left: 20px;
+      border: 1px solid #362624;
+      box-shadow: 5px 5px 15px 0px #362624  ;
+    }
+  }
+
+  .projectToolsContainer{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-top: 40px;
+  
+    .projectTools{
+      display: flex;
+      flex-direction: column;
+      
+
+      .projectWork{
+        font-size: 24px;
+        margin: 0;
+      }
+    }
+
+    .projectDate{
+      margin: 0;
+      color: #362624 ;
+      font-size: 18px;
+      font-weight: 300;
+
+    }
+
+    .projectLink{
+      color: #362624 ;
+      font-size: 18px;
+      text-decoration: none;
+      border-bottom: 2px solid #ff4000;
+      font-weight: 300;
+    }
+    .projectLink:hover{
+      color: #ff4000;
+      opacity: 50%;
+    }
+
+    .projectArrow{
+      .arrow{
+        font-size: 24px;
+        border-radius: 50%;
+        border: 2px solid #ff4000;
+        padding: 5px 12px;
+        margin-left: 10px;
+        cursor: pointer;
+        color: #362624 ;
+
+      }
+
+      .arrow:hover{
+        opacity: 50%;
+        color: #ff4000;
+      }
+    }
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
