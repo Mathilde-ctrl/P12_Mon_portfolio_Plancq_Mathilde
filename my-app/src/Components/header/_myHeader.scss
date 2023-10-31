@@ -44,8 +44,7 @@
   border-right: 3px solid variable.$main-color;
   animation:  blink-caret 1s infinite;
   @media (max-width:650px){
-    height: 25px;
-    border: 0;
+    border: none;
   }
   
 }

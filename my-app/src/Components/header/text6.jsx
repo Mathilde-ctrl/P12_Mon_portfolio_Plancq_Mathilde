@@ -14,13 +14,13 @@ function Text6(){
         setAnimateBorder(true)
         setText(initialText.substring(0, index + 1));
         index++;
-        setTimeout(typeText, 50);
+        setTimeout(typeText, 35);
       }else{
         setAnimateBorder(true)
       }
     };
 
-    setTimeout(typeText, 27000); 
+    setTimeout(typeText, 23000); 
   }, []);
 
   

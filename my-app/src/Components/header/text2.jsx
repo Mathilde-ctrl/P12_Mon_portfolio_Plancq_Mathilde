@@ -15,22 +15,22 @@ function Text2() {
         setAnimateBorder(true)
         setText(initialText.substring(0, index + 1));
         index++;
-        setTimeout(typeText, 50);
+        setTimeout(typeText, 35);
       } else {
         let linkIndex = 0;
         function typeLink() {
           if (linkIndex < initialLink.length) {
             setLink(initialLink.substring(0, linkIndex + 1));
             linkIndex++;
-            setTimeout(typeLink, 50);
+            setTimeout(typeLink, 35);
           }else{
             setAnimateBorder(false);
           }
         }
-        setTimeout(typeLink, 50);
+        setTimeout(typeLink, 35);
       }
     };
-    setTimeout(typeText, 4500);
+    setTimeout(typeText, 2500);
   }, []);
 
   return (
