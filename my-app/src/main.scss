@@ -5,6 +5,8 @@
 @forward './Pages/Projects/projets';
 @forward './Components/projet/projet';
 @forward './Components/form/form';
+@forward './Sass/variable';
+@forward './Sass/mixin';
 
 html{
   margin: 0;
@@ -14,4 +16,6 @@ html{
 body{
   margin: 25px;
   background-color: #EAEFF2;
+  font-family: 'Oswald', sans-serif;
+
 }

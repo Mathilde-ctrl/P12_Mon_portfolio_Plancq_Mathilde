@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 
 function Text4(){
   const [text, setText] = useState('');
-  const initialText = "J'ai hâte d'élargir mes compétences, d'explorer de nouvelles technologies et de travailler sur des nouveaux projets";
+  const initialText = "J'ai hâte d'élargir mes compétences, d'explorer de nouvelles technologies et de travailler sur des nouveaux projets.";
   const [animateBorder, setAnimateBorder] = useState(false);
 
 

@@ -6,7 +6,7 @@ function Nav(){
   return(
     <div>
       <nav className="navContainer">
-        <p className="navContainer--name">Mathilde</p>
+        <p className="navContainer--name">Mathilde Plancq</p>
 
         <div className="linksContainer">
           <NavLink to="/" id='link' className={({isActive}) => isActive ? "active": ""}>Accueil</NavLink>

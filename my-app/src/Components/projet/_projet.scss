@@ -1,19 +1,32 @@
-
+@use '../../Sass/variable';
+@use '../../Sass/mixin';
+ 
 .project{
   margin-left: 30px;
   margin-right: 30px;
-  font-family: 'Oswald', sans-serif;
+  @media(max-width:650px){
+    margin-left: 10px;
+    margin-right: 10px;
+  }
 
   .projectTitle{
     margin-top: 0;
     font-weight: 400;
-    border-top: 1px solid #362624;
+    border-top: 1px solid variable.$second-color;
+    
+    @media(max-width: 1024px){
+      margin-top: 20px;
+    }
   }
 
   .projectContainer{
     display: flex;
     justify-content: space-between;
     margin-top: 10px;
+    
+    @media(max-width: 1024px){
+      flex-direction: column;
+    }
   }
 
   .projectInfo{
@@ -22,15 +35,20 @@
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+    @media(max-width: 1024px){
+      width: 100%;
+    }
 
     .projectList{
       list-style-type: circle;
       margin-bottom: 40px;
       font-size:22px ;
-
+      @media(max-width: 1024px){
+        margin-top: 0;
+      }
 
       li::marker{
-        color: #ff4000;
+        color: variable.$main-color;
       }
     }
 
@@ -39,7 +57,7 @@
     }
 
     .focus{
-      background-color: #ffdb4d; 
+      background-color: variable.$third-color; 
       padding: 2px 5px; 
       border-radius: 3px;
       margin: 0;
@@ -50,14 +68,32 @@
 
   .projectImageContainer{
     display: flex;
+    @media(max-width: 1024px){
+      margin: auto;
+      margin-top: 30px;
+    }
+    @media(max-width:650px){
+      flex-direction: column;
+    }
     .projectImage{
       max-width: 400px;
       max-height: 400px;
       box-sizing: border-box;
       object-fit: contain;
       margin-left: 20px;
-      border: 1px solid #362624;
-      box-shadow: 5px 5px 15px 0px #362624  ;
+      border: 1px solid variable.$second-color;
+      box-shadow: 5px 5px 15px 0px variable.$second-color  ;
+      @media(max-width:650px){
+        margin-bottom: 20px;
+        max-width: 300px;
+        margin-left: 0;
+      }
+
+      @media(max-width:374px){
+        margin-bottom: 20px;
+        max-width: 250px;
+        margin-left: 0;
+      }
     }
   }
 
@@ -66,53 +102,77 @@
     align-items: flex-end;
     justify-content: space-between;
     margin-top: 40px;
+    @media(max-width: 1024px){
+      margin-top: 30px;
+      margin-bottom: 30px;      
+    }
+
+    @media (max-width:650px){
+      display: block;
+    }
   
     .projectTools{
       display: flex;
       flex-direction: column;
-      
 
+      @media(max-width:650px){
+        margin-bottom: 10px;
+      }
+      
       .projectWork{
-        font-size: 24px;
+        //  font($size, $weight)
+        @include mixin.font(24px, 300);
         margin: 0;
       }
     }
 
     .projectDate{
       margin: 0;
-      color: #362624 ;
-      font-size: 18px;
-      font-weight: 300;
+      color: variable.$second-color;
+      //  font($size, $weight)
+      @include mixin.font(18px, 300);
 
+      @media(max-width:650px){
+        margin-bottom: 10px;
+      }
     }
 
     .projectLink{
-      color: #362624 ;
-      font-size: 18px;
+      color: variable.$second-color;
       text-decoration: none;
-      border-bottom: 2px solid #ff4000;
-      font-weight: 300;
+      border-bottom: 2px solid variable.$main-color;
+      @include mixin.font(18px,300);
+
+      @media(max-width:650px){
+        margin-bottom: 20px;
+      }
     }
     .projectLink:hover{
-      color: #ff4000;
-      opacity: 50%;
+      @include mixin.hover;
     }
 
     .projectArrow{
+      @media(max-width:650px){
+        display: flex;
+        flex-direction: row;
+         justify-content: space-between;
+      }
       .arrow{
         font-size: 24px;
         border-radius: 50%;
-        border: 2px solid #ff4000;
+        border: 2px solid variable.$main-color;
         padding: 5px 12px;
         margin-left: 10px;
         cursor: pointer;
-        color: #362624 ;
-
+        color: variable.$second-color ;
+        @media(max-width:650px){
+          margin-top: 20px;
+          
+        }
       }
 
       .arrow:hover{
-        opacity: 50%;
-        color: #ff4000;
+        @include mixin.hover;
       }
     }
   }

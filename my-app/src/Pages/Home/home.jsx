@@ -12,7 +12,6 @@ function Home(){
       <Nav />
       <div className=''>
         <Intro />
-        
       </div>
     </div>
   )

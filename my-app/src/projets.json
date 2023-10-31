@@ -12,7 +12,7 @@
       "image": ["/Images/P4/restoMobile.png","/Images/P4/bilanmenu.png"],
       "link": "https://github.com/Mathilde-ctrl/OhMyFood-OpenClassroom-Projet4",
       "languages": ["HTML", "SCSS" ],
-      "focus": ["Responsive", "Animations"],
+      "focus": ["Keyframes", "Loader", "Hover"],
       "date": "Avril 2023"
     },
     {
@@ -29,7 +29,7 @@
       "image": ["/Images/P6/modale.png","/Images/P6/site.png"],
       "link": "https://github.com/Mathilde-ctrl/P6-OC-SophieBluel",
       "languages": ["HTML", "SCSS", "JS"],
-      "focus": ["Fetch","Swagger", "Modale","Authentification"],
+      "focus": ["Requêtes fetch","Swagger", "Modale","Authentification"],
       "date": "Juin 2023"
     },
     {
@@ -46,7 +46,7 @@
       "image": ["/Images/P7/gestion.png","/Images/P7/resume.png"],
       "link": "https://shared-salad-2b7.notion.site/78692ddc24e1458f92cfcbc05e3a4f51?v=603e1fb3c2954e8fba25b5023efd585e&pvs=4",
       "languages": ["Notion"],
-      "focus": ["Agile","Kanban"],
+      "focus": ["Méthode Agile","Tableau Kanban", "Définitions des Sprints", "Chronologie des tâches"],
       "date": "Juillet 2023"
     },
     {
@@ -63,13 +63,13 @@
       "image": ["/Images/P8/kasa1.png","/Images/P8/kasa2.png","Images/P8/error.png"],
       "link": "https://github.com/Mathilde-ctrl/P8-OC-Kasa-Mathilde",
       "languages": ["React","Sass", "JS", "CRA", "React Router"],
-      "focus": ["Composant réutilisable","Version responsive",""],
+      "focus": ["Props","useParams","React-router-dom","Base de donnée Json"],
       "date": "Août 2023"
     },
     {
       "id": 5,
       "title": "Optimisez le référencement d'un site de photographe",
-      "name": "Kasa",
+      "name": "Nina Carducci",
       "missions": [
         "Optimiser les images, le code et sa structure",
         "Réaliser et analyser des Audits avec Lighouse, GTmetrix et wave",
@@ -81,7 +81,7 @@
       "image": ["/Images/P9/wave.png","/Images/P9/point.png"],
       "link": "https://github.com/Mathilde-ctrl/P9-OC-Mathilde-Plancq",
       "languages": ["Lighthouse","Wave", "GTmetrix", "Schema.org"],
-      "focus": ["Optimisation", "Analyse", "SEO"],
+      "focus": ["Accessibilité", "Aria-label", "Minifications", "Conversions"],
       "date": "Août 2023"
     },
     {
@@ -97,7 +97,7 @@
       "image": ["/Images/P10/test.png","/Images/P10/site.png"],
       "link": "https://github.com/Mathilde-ctrl/P10-Debuggez-le-site-agence-Mathilde-Plancq",
       "languages": ["React","Sass", "JS", "test.js"],
-      "focus": ["test unitaire","React Developer Tools",""],
+      "focus": ["test unitaire","React Developer Tools","test fonctionnel"],
       "date": "Septembre 2023"
     },
     {
@@ -113,7 +113,7 @@
       "image": ["/Images/P11/login.png","Images/P11/swagger.png"],
       "link": "https://github.com/Mathilde-ctrl/P11-Implementez_le_front_end_d-une_application_bancaire_avec_react",
       "languages": ["React","Sass", "JS", "CRA", "Redux Toolkit","Swagger"],
-      "focus": ["Redux Toolkit","Store","React", "Swagger","Fetch"],
+      "focus": ["Store","Rooter", "Swagger","Fetch","Reducer","Persistor","createAsyncThunk" ],
       "date": "Octobre 2023"
     }
   ]
