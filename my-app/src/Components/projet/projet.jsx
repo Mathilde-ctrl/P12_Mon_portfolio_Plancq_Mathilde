@@ -28,8 +28,8 @@ function Projet({ project, onPrevClick, onNextClick }) {
         <p className="projectDate">Date du projet : {project.date}</p>
         <a className="projectLink" target="_blank" rel="noreferrer" href={project.link} >GitHub Link</a>
         <div className="projectArrow">
-          <button className="arrow" onClick={onPrevClick}>&lt;</button>
-          <button className="arrow" onClick={onNextClick}>&gt;</button>
+          <button className="arrow" onClick={onPrevClick} aria-label="Previous project" >&lt;</button>
+          <button className="arrow" onClick={onNextClick} aria-label="Next project" >&gt;</button>
         </div>
       </div>
     </div>

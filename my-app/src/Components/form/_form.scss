@@ -100,10 +100,15 @@
       color: variable.$main-color;
       
     }
+    .formCaptcha{
+      margin: auto;
+      
+    }
 
     .formSubmit{
       width: 100px;
       margin: auto;
+      margin-top: 20px;
       border: thick double variable.$main-color;
       border-radius: variable.$form-radius;
       cursor: pointer; 
