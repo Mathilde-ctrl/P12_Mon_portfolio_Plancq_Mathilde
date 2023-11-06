@@ -20,7 +20,6 @@ function Text1() {
         setAnimateBorder(false)
       }
     };
-
     setTimeout(typeText, 1000); 
   }, []);
 
