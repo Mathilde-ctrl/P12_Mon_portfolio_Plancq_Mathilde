@@ -1,4 +1,5 @@
-
+// Template de la page projet. 
+// Chaque projet doit pouvoir afficher les information suivantes : 
 
 function Projet({ project, onPrevClick, onNextClick }) {
   return (

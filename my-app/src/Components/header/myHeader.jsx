@@ -5,6 +5,7 @@ import Text4 from './text4';
 import Text5 from './text5';
 import Text6 from './text6';
 
+// Rassemble toutes mes phrases 
 function MyHeader() {
   
   return (

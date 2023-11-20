@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 
 import './main.scss'
 
-// Import my rooter
+// Importe le rooter
 import Rooter from './rooter';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
